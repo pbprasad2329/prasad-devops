@@ -7,5 +7,6 @@ Vlans:
     id: 20
 ports:
  1: [ 10 ]
+ 2: [ 20 ]
  3: [ 10, 20 ]
  auth_server: 10.30.3.3
