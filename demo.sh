@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "**********display root F.S space"
+echo "***********Display root F.S space"
 df -h
 
-echo "**********display today date *********"
+echo "***********Display today date****"
 date
