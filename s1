@@ -1,5 +1,4 @@
-mgmt_ip: 10.0.0.
-Vlans:
+mgmt_ip: 10.0.0.1
 sdn_controller: 10.20.2.2
 Vlans: 
   red:
@@ -11,4 +10,3 @@ ports:
  2: [ 10 ]
  3: [ 10, 20 ]
  auth_server: 10.30.3.3
- 3: [ 10, 20 ]
