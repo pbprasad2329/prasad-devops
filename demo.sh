@@ -10,4 +10,4 @@ echo "***********Display jenkins memory space ***********"
 free -m
 
 echo "************checking update on jenkins and other services*****"
-demo
+accesses for services
