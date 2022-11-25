@@ -9,5 +9,5 @@ date
 echo "***********Display jenkins memory space ***********"
 free -m
 
-echo "************checking update on jenkins and other services*****"
-accesses for services
+echo "************checking update time*********"
+time
