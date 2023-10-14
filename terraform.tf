@@ -1,4 +1,4 @@
-# Initialize the Terraform AWS provider
+## Initialize the Terraform AWS provider
 provider "aws" {
   region = "ap-south-1"  # Change this to your desired AWS region
 }
@@ -45,5 +45,6 @@ resource "aws_default_vpc" "default" {
 
 # Default subnet
 resource "aws_default_subnet" "default" {
-  depends_on = [aws_default_vpc.default]
+  availability_zone = "ap-south-1a"  # Specify the availability zone
+  depends_on        = [aws_default_vpc.default]
 }
