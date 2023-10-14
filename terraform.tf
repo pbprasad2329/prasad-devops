@@ -28,7 +28,7 @@ resource "aws_instance" "public_instance" {
   ami           = "ami-0f5ee92e2d63afc18"  # Replace with your desired AMI ID
   instance_type = "t2.micro"
   subnet_id     = aws_default_subnet.default.id  # Use the default VPC's default subnet
-  key_name      = "your-key-pair-name"  # Change this to your SSH key pair
+  key_name      = "my-server"  # Change this to your SSH key pair
   security_groups = [aws_security_group.instance_sg.id]
 
   tags = {
